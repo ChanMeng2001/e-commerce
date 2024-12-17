@@ -1,0 +1,84 @@
+*{
+    color:white;
+    margin:0;
+    padding:0;
+    font-family: "Balsamiq Sans", sans-serif;
+
+}
+@keyframes anime {
+     0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+.bgcolor{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(45deg, #e95c61 , #e84ba3, #d663d1, #9d70e6, #5fd6dd);
+    background-size: 500% 100%;
+    animation: anime 2s linear infinite;
+    animation-direction: alternate;
+}
+.headbox{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap:5%;
+}
+
+.labelbox label{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:30%;
+    font-size:19px;
+    line-height: 1.79;
+}
+
+.inputbox input{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:30%;
+    box-shadow: none;
+    outline:none;
+    border:3px solid white;
+    background: none;
+    color:white;
+    border-radius: 24px;
+    transition:all 0.3s ease-out;
+    font-size:16px;
+    width:150%;
+    height:3.8vh;
+    text-align: center;
+}
+.inputbox input:hover{
+    transform: scale(1.1);
+}
+.btn{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    margin-top:2%;
+}
+.btn input{
+    background:none;
+    border:2px solid white;
+    width:10%;
+    height:4vh;
+    border-radius: 24px;
+    cursor:pointer;
+    font-size:17px;
+    transition:all 0.2s ease-out;
+    outline:none;
+}
+
+.btn input:hover{
+    background: linear-gradient(to right, #FF2281 , #FE53BB);
+    color:white;
+    border:none;
+    box-shadow: 6px 6px 10px #FF2281;
+    transform:scale(1.2);
+    transform:translateY(-10px);
+}
+
+
